@@ -1,4 +1,4 @@
-#        𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦 𝗠𝗗 🌟
+#        NHEZHO 𝗠𝗗 🌟
 
    <a>
                                       <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Jersey+20+Charted&size=30&pause=1000&color=F71515&width=435&lines=BOT+100%25+KENYAN" alt="Typing SVG" /></a>   
@@ -36,7 +36,7 @@
 
 ### 1. FORK THIS REPO
 
-<a href='https://github.com/caseyweb/CASEYRHODES_MD/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+<a href='https://github.com/caseyweb/NHEZHO-MD/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 <p align="center">
 
 
@@ -60,7 +60,7 @@
    
 2. Now Deploy
     <br>
-<a href='https://heroku.com/deploy?template=https://github.com/caseyweb/CASEYRHODES_MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
+<a href='https://heroku.com/deploy?template=https://github.com/caseyweb/NHEZHO-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku'/></a>
 
 
 
