@@ -46,10 +46,12 @@
 
 1.𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐅𝐑𝐎𝐌 𝐒𝐄𝐑𝐕𝐄𝐑
 
-<a href="https://andbad-qr.onrender.com/pair"><img src="https://img.shields.io/badge/PAIR CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
+<a href="https://caseyrhodespairme-7639ee920021.herokuapp.com"><img src="https://img.shields.io/badge/PAIR CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
 
 
-<a href="https://alundu-4a2020a21a7b.herokuapp.com"><img src="https://img.shields.io/badge/PAIR CODE-green" alt="Click Here to Get QR-Code" width="90"></a> 
+
+
+<a href="https://caseyrhodesyts-b9fa44421af3.herokuapp.com"><img src="https://img.shields.io/badge/PAIR CODE-green" alt="Click Here to Get QR-Code" width="90"></a> 
 
 #### DEPLOY TO HEROKU 
 
@@ -62,6 +64,15 @@
 
   - <a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/caseyweb/NHEZHO-MD"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
   
+
+
+
+
+
+
+
+
+
 
 
 <p align="center">
