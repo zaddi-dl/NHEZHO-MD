@@ -55,13 +55,13 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "💘" }, async (dest, zk
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "POPKID", numero: "254111385747" },
-      { nom: "᚛POPKID᚜", numero: "254732297194" },
-      { nom: "ENZO", numero: "254784115308" },
+      { nom: "CASEYRHODES", numero: "254101022551" },
+      { nom: "᚛CASEYRHODES᚜", numero: "254785968570" },
+      { nom: "ZHEZHO", numero: "254112192119" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "WELCOME TO POOKID HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
+    let message = "WELCOME TO CASEYRHODES HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -95,7 +95,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING POPKID, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@popkid254] \n\n\n*Created By Mr POPKID") 
-  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING POPKID,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
+  repondre("THANK YOU FOR CHOOSING CASEYRHODES, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VageGgc4Y9lpR3EJBC2r] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@caseyrhoded01] \n\n\n*Created By Mr CASEYRHODES") 
+  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING CASEYRHODES,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
