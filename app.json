@@ -1,9 +1,9 @@
 {
-  "name":"ENZO MD",
-  "description":"Best whatsapp bot developed by ENZO",
+  "name":"ZHEZHO MD",
+  "description":"Best whatsapp bot developed by CASEYRHODES",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://i.ibb.co/qJxvVJT/IMG-20241015-WA0013.jpg",
-  "repository":"https://github.com/ENZOTECH2/ENZO-MD-V3",
+  "repository":"https://github.com/caseyweb/NHEZHO-MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"🅴🅽🆉🅾 🅼🅳",
+      "value":"ZHEZHO MD",
       "required":false
 
     } ,
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "𝔼ℕℤ𝕆 𝕄𝔻"
+    "value": "ZHENZHO 𝕄𝔻"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254784115308"
+    "value": "254112192119"
   },
     "WARN_COUNT":
   {
