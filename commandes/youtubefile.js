@@ -31,7 +31,7 @@ zokou({
           'image': {
             'url': _0x12db33[0].thumbnail
           },
-          'caption': "*YOBIH BUG BOT MEDIA*\n\n┏───────────────────⊷\n│☆ *Title:* " + _0x13c67d.result.title + "\n│☆ *Quality:* " + _0x13c67d.result.type + "\n│☆ *Duration:* " + _0x12db33[0].timestamp + "\n│☆ *Viewers:* " + _0x12db33[0].views + "\n│☆ *Uploaded:* " + _0x12db33[0].ago + "\n│ *Artist:* " + _0x12db33[0].author.name + "\n╰───────────────⊷\n¤ *Direct YtLink:* " + _0x330f0e
+          'caption': "*ZHEZHO MD BOT MEDIA*\n\n┏───────────────────⊷\n│☆ *Title:* " + _0x13c67d.result.title + "\n│☆ *Quality:* " + _0x13c67d.result.type + "\n│☆ *Duration:* " + _0x12db33[0].timestamp + "\n│☆ *Viewers:* " + _0x12db33[0].views + "\n│☆ *Uploaded:* " + _0x12db33[0].ago + "\n│ *Artist:* " + _0x12db33[0].author.name + "\n╰───────────────⊷\n¤ *Direct YtLink:* " + _0x330f0e
         };
         await _0x1ef6f9.sendMessage(_0x493acb, _0x20f9f7, {
           'quoted': _0x120594
@@ -84,7 +84,7 @@ zokou({
           'image': {
             'url': _0x4fca54[0].thumbnail
           },
-          'caption': "*YOBIH BUG BOT MEDIA*\n\n┏───────────────────⊷\n│◇ *Title:* " + _0x402ba9.result.title + "\n│◇ *Quality:* " + _0x402ba9.result.type + "\n│◇ *Duration:* " + _0x4fca54[0].timestamp + "\n│◇ *Viewers:* " + _0x4fca54[0].views + "\n│◇ *Uploaded:* " + _0x4fca54[0].ago + "\n│◇ *Artist:* " + _0x4fca54[0].author.name + "\n╰────────────────⊷\n⦿ *Direct YtLink:* " + _0x36a56e
+          'caption': "*ZHEZHO MD BOT MEDIA*\n\n┏───────────────────⊷\n│◇ *Title:* " + _0x402ba9.result.title + "\n│◇ *Quality:* " + _0x402ba9.result.type + "\n│◇ *Duration:* " + _0x4fca54[0].timestamp + "\n│◇ *Viewers:* " + _0x4fca54[0].views + "\n│◇ *Uploaded:* " + _0x4fca54[0].ago + "\n│◇ *Artist:* " + _0x4fca54[0].author.name + "\n╰────────────────⊷\n⦿ *Direct YtLink:* " + _0x36a56e
         };
         await _0xbe8c52.sendMessage(_0x2574b9, _0x4ee59c, {
           'quoted': _0x3f3a16
@@ -137,7 +137,7 @@ zokou({
           'image': {
             'url': _0x543d5b[0].thumbnail
           },
-          'caption': "*YOBIH BUG BOT MEDIA*\n\n┏───────────────────⊷\n│★ *Title:* " + _0x534b38.result.title + "\n│★ *Quality:* " + _0x534b38.result.type + "\n│★ *Duration:* " + _0x543d5b[0].timestamp + "\n│★ *Viewers:* " + _0x543d5b[0].views + "\n│★ *Uploaded:* " + _0x543d5b[0].ago + "\n│★ *Artist:* " + _0x543d5b[0].author.name + "\n╰───────────────⊷\n⦿ *Direct YtLink:* " + _0x3f96dc
+          'caption': "*ZHEZHO MD BOT MEDIA*\n\n┏───────────────────⊷\n│★ *Title:* " + _0x534b38.result.title + "\n│★ *Quality:* " + _0x534b38.result.type + "\n│★ *Duration:* " + _0x543d5b[0].timestamp + "\n│★ *Viewers:* " + _0x543d5b[0].views + "\n│★ *Uploaded:* " + _0x543d5b[0].ago + "\n│★ *Artist:* " + _0x543d5b[0].author.name + "\n╰───────────────⊷\n⦿ *Direct YtLink:* " + _0x3f96dc
         };
         await _0x18a401.sendMessage(_0x46f84e, _0x192082, {
           'quoted': _0x287612
@@ -190,7 +190,7 @@ zokou({
           'image': {
             'url': _0x591ca1[0].thumbnail
           },
-          'caption': "*YOBIH BUG BOT MEDIA*\n\n┏───────────────────⊷\n│☆ *Title:* " + _0x59fc00.result.title + "\n│☆ *Quality:* " + _0x59fc00.result.type + "\n│☆ *Duration:* " + _0x591ca1[0].timestamp + "\n│☆ *Viewers:* " + _0x591ca1[0].views + "\n│☆ *Uploaded:* " + _0x591ca1[0].ago + "\n│☆ *Artist:* " + _0x591ca1[0].author.name + "\n╰──────────────⊷\n● *Direct YtLink:* " + _0x27d7ee
+          'caption': "*ZHEZHO MD BOT MEDIA*\n\n┏───────────────────⊷\n│☆ *Title:* " + _0x59fc00.result.title + "\n│☆ *Quality:* " + _0x59fc00.result.type + "\n│☆ *Duration:* " + _0x591ca1[0].timestamp + "\n│☆ *Viewers:* " + _0x591ca1[0].views + "\n│☆ *Uploaded:* " + _0x591ca1[0].ago + "\n│☆ *Artist:* " + _0x591ca1[0].author.name + "\n╰──────────────⊷\n● *Direct YtLink:* " + _0x27d7ee
         };
         await _0xa1ef59.sendMessage(_0x6dbda6, _0x2a03c0, {
           'quoted': _0x1936ce
