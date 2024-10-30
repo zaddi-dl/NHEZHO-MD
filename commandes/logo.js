@@ -4,7 +4,7 @@ zokou({ nomCom: "hacker",
     categorie: "Logo", reaction: "👨🏿‍💻" }, async (origineMessage, zk, commandeOptions) => {
     const { prefixe, arg, ms, repondre } = commandeOptions;
     if (!arg || arg == "") {
-        repondre("*__Exemple : * " + prefixe + "hacker enzo");
+        repondre("*__Exemple : * " + prefixe + "hacker CASEYRHODES");
         return;
     }
     try {
@@ -91,10 +91,10 @@ zokou({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk,
 zokou({ nomCom: "didong", categorie: "Logo", reaction: "📱" }, async (dest, zk, commandeOptions) => {
     let { arg, repondre, prefixe, ms } = commandeOptions;
    try {
-     var titre = "\t* logo by enzo-Md*";
+     var titre = "\t* logo by CASEYRHODES MD*";
       var lien = "https://ephoto360.com/tao-anh-che-vui-tu-choi-cuoc-goi-voi-ten-cua-ban-930.html";
         if (!arg || arg == "") {
-           repondre(`*exemple :* ${prefixe}didong popkid`)
+           repondre(`*exemple :* ${prefixe}didong CASEYRHODES`)
             return ;
         }
      
@@ -205,7 +205,7 @@ zokou({nomCom: "devil", categorie: "Logo", reaction: "😈"}, async (dest, zk, c
   const text = arg.join(" ");
   mumaker.textpro("https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html",arg)
     .then((data) => {
-      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by ENZO-md' }, { quoted: ms });
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by CASEYRHODES MD' }, { quoted: ms });
     })
     .catch(console.error);
 });
@@ -450,7 +450,7 @@ zokou({nomCom:"gold",categorie:"Logo",reaction:"🧚🏿‍♀️"},async(dest,z
   try{
       if(!arg||arg=="")
       {
-        repondre(prefixe+"gold enzo-MD");return;
+        repondre(prefixe+"gold CASEYRHODES MD");return;
       }
 
     var lien="https://en.ephoto360.com/modern-gold-4-213.html";
@@ -469,7 +469,7 @@ zokou({nomCom:"arena",categorie:"Logo",reaction:"🥵"},async(dest,zk,commandeOp
   try{
       if(!arg||arg=="")
       {
-        repondre(prefixe+"arena enzo-MD");return;
+        repondre(prefixe+"arena CASEYRHODES-MD");return;
       }
 
     var lien="https://en.ephoto360.com/create-cover-arena-of-valor-by-mastering-360.html";
@@ -487,7 +487,7 @@ zokou({nomCom:"incandescent",categorie:"Logo",reaction:"😋"},async(dest,zk,com
   try{
       if(!arg||arg=="")
       {
-        repondre(prefixe+"incandescent Bmw-MD");return;
+        repondre(prefixe+"incandescent CASEYRHODES-MD");return;
       }
 
     var lien="https://en.ephoto360.com/text-effects-incandescent-bulbs-219.html";
