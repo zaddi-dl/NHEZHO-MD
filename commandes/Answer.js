@@ -11,7 +11,7 @@ zokou({nomCom:"caseyrhodes",reaction:"😂",categorie:"IA"},async(dest,zk,comman
   const {repondre,ms,arg}=commandeOptions;
   
     if(!arg || !arg[0])
-    {return repondre("😂HII BOT UNAONAJE 😂WHO CAN.BEAT MY PROJECT.")}
+    {return repondre("😂HII BOT UNAONAJE 😂WHO CAN.BEAT MY PROJECT.CONTACT DEV.CASEYRHODES🌟 +254112192119 PLEASE DO NOT SPAM ❤️")}
     //var quest = arg.join(' ');
   try{
     
