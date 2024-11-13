@@ -86,6 +86,6 @@
 
 * [`GOD`](https://github.com/Popkiddevs)
 * ## Contact Dev of CASEYRHODES 🤪
-* [`CASEYRHODES`](https://wa.me/254112192119?text=Hi+Bro+Rayan+Big+Fan😍)
-* [`CASEYRHODES`](https://wa.me/254112192119?text=Hi+Bro+Giffareno+Big+Fan😍)
+* [`CASEYRHODES`](https://wa.me/254112192119?text=Hi+Bro+CASEYRHODES💫+Big+Fan😍)
+* [`CASEYRHODES`](https://wa.me/254112192119?text=Hi+Bro+CASEYRHODES💫+Big+Fan😍)
  </details>
