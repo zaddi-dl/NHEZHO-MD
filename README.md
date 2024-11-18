@@ -44,7 +44,9 @@
 
 <a href="https://rhodespair-1303049c463e.herokuapp.com"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
 
-<a href="https://rhodespair-1303049c463e.herokuapp.com"><img src="https://img.shields.io/badge/PAIR_CODE-darkblue" alt="Click Here to Get QR-Code" width="90"></a> 
+
+
+  <a href="https://enzo-md-sessions-generator-1-b158.onrender.com"><img title="GET-SESSION ID HERE" src="https://img.shields.io/badge/GET-SESSION ID HERE-h?color=green&style=for-the-badge&logo=nike" width="230" height="38.45"/></a></p>  
 
 
  ## 𝐅𝐎𝐑 𝐎𝐍𝐄-𝐓𝐀𝐏 𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓 𝐔𝐒𝐄 𝐓𝐇𝐈𝐒 𝐁𝐔𝐓𝐓𝐎𝐍
