@@ -4225,15 +4225,15 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭━━〔 *${s.BOT}* 〕━━┈⊷
-┃๏╭───────────
-┃๏│▸ 𝗢𝘄𝗻𝗲𝗿 : ${s.OWNER_NAME}
-┃๏│▸ 𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${s.PREFIXE} ] 
-┃๏│▸ 𝗠𝗼𝗱𝗲 : *${mode}*
-┃๏│▸ 𝗗𝗮𝘁𝗲  : *${date}* 
-┃๏│▸ 𝗥𝗮𝗺 : 𝟴/𝟭𝟯𝟮 𝗚𝗕
-┃๏│▸ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗖𝗵𝗿𝗼𝗺𝗲 𝗟𝗶𝗻𝘂𝘅
-┃๏│▸ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : CASEYRHODES TECH 
-┃๏└───────────···▸
+┃❍╭───────────
+┃❍│▸ 𝗢𝘄𝗻𝗲𝗿 : ${s.OWNER_NAME}
+┃❍│▸ 𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${s.PREFIXE} ] 
+┃❍│▸ 𝗠𝗼𝗱𝗲 : *${mode}*
+┃❍│▸ 𝗗𝗮𝘁𝗲  : *${date}* 
+┃❍│▸ 𝗥𝗮𝗺 : 𝟴/𝟭𝟯𝟮 𝗚𝗕
+┃❍│▸ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗖𝗵𝗿𝗼𝗺𝗲 𝗟𝗶𝗻𝘂𝘅
+┃❍│▸ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : CASEYRHODES🍀
+┃❍└───────────···▸
 ╰──────────────┈⊷\n${readmore}`;
     let menuMsg = `*CASEYRHODES TECH BOT*
 `;
