@@ -79,6 +79,14 @@
 <a href='https://mogenius.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=genius'/></a>
 
   **Do not forget to give a star⭐️ please**
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+## CONTACT CARLTECH HERE
+  DM FOR SERIOUS BUSINESS
+
+   <a href="https://github.com/caseyweb"><img title="CONTACT-CASEYRHODES" src="https://img.shields.io/badge/CONTACT-CASEYRHODES-h?color=black&style=for-the-badge&logo=jordan" width="240" height="45.45"/></a></p>
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ### A special thank to
 
