@@ -81,10 +81,10 @@
   **Do not forget to give a star⭐️ please**
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-## CONTACT CARLTECH HERE
+## CONTACT CASEYRHODES💫 HERE
   DM FOR SERIOUS BUSINESS
 
-   <a href="wa.me/+254112192119"><img title="CONTACT-CASEYRHODES" src="https://img.shields.io/badge/CONTACT-CASEYRHODES-h?color=black&style=for-the-badge&logo=jordan" width="240" height="45.45"/></a></p>
+   <a href="https://github.com/caseyweb"><img title="CONTACT-CASEYRHODES" src="https://img.shields.io/badge/CONTACT-CASEYRHODES-h?color=black&style=for-the-badge&logo=jordan" width="240" height="45.45"/></a></p>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
