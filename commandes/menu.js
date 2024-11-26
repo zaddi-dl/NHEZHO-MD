@@ -4225,7 +4225,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭━━〔 *${s.BOT}* 〕━━┈⊷
-┃❍╭───────────
+┃❍┃╭══════════
 ┃❍│▸ 𝗢𝘄𝗻𝗲𝗿 : ${s.OWNER_NAME}
 ┃❍│▸ 𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${s.PREFIXE} ] 
 ┃❍│▸ 𝗠𝗼𝗱𝗲 : *${mode}*
@@ -4234,22 +4234,22 @@ const date = moment().format('DD/MM/YYYY');
 ┃❍│▸ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗖𝗵𝗿𝗼𝗺𝗲 𝗟𝗶𝗻𝘂𝘅
 ┃❍│▸ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : 𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂🍀
 ┃❍└───────────·
-╰──────────────┈⊷\n${readmore}`;
+╰════════════════⊷❍ \n${readmore}`;
     let menuMsg = `*CASEYRHODES TECH BOT*
 `;
     for (const cat in coms) {
         menuMsg += `
-╭──「 *${cat}* 」──┈⊷ 
-┃╭──────────
+╭══「 *${cat}* 」═══⊷ 
+┃╭════════════════⊷❍
 ┌┤ `;
         for (const cmd of coms[cat]) {
             menuMsg += `          
-┃│✮  ${cmd}`    
+┃│❍  ${cmd}`    
         } 
         menuMsg +=`
 ┌┤
-│╰────────┈⊷⊷ 
-╰────────────┈⊷`
+│╰══════════⊷⊷ 
+╰════════════════⊷❍`
     }
     menuMsg += `
 > 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂\n
