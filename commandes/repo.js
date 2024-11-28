@@ -35,24 +35,28 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
       *𝐍𝐇𝐄𝐙𝐇𝐎 𝐈𝐍𝐅𝐎* 
-❒───────────────────❒
+❍⊷════════════════════⊷❍
 *𝐆𝐈𝐓𝐇𝐔𝐁*
- https://caseyweb/ZHEZHO-MD
+> https://caseyweb/ZHEZHO-MD
 
 *𝐇𝐀𝐂𝐇𝐄𝐑𝐒 𝐇𝐎𝐎𝐃 𝐂𝐇𝐀𝐍𝐍𝐄𝐋*
 > https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
 ⁠
-╭───────────────────❒
+
+╭═══════════════════⊷❍ 
+┊❍https://github.com/caseyweb/NHEZHO-MD
+╰═══════════════════⊷❍
 │😂 *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │❣️ *DEV1* : *NHEZHO*
 │⚽ *DEV2* : *𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦 𝐓𝐄𝐂𝐇*
-⁠⁠⁠⁠╰───────────────────❒
+╰═══════════════════⊷❍
   `;
     
 let menuMsg = `
-     *𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐌𝐃*
+     *𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂 𝙼𝙳 𝚂𝚄𝙿𝙿𝙾𝚁𝚃*
 
-❒────────────────────❒`;
+
+❍⊷════════════════════⊷❍`;
 
    var lien = mybotpic();
 
