@@ -37,7 +37,7 @@ const date = moment().format('DD/MM/YYYY');
       *𝐍𝐇𝐄𝐙𝐇𝐎 𝐈𝐍𝐅𝐎* 
 ❒───────────────────❒
 *𝐆𝐈𝐓𝐇𝐔𝐁*
-> https://caseyweb/ZHEZHO
+ https://caseyweb/ZHEZHO-MD
 
 *𝐇𝐀𝐂𝐇𝐄𝐑𝐒 𝐇𝐎𝐎𝐃 𝐂𝐇𝐀𝐍𝐍𝐄𝐋*
 > https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
