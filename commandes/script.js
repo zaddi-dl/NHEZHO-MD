@@ -36,24 +36,24 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
      *CASEYRHODES MD IMPORTANT INFO* 
-❒───────────────────❒
+❒═════════════════❒
 *GITHUB LINK*
-> https://github.com/caseyweb/Charity-MD-bot
+> https://github.com/caseyweb/NHEZHO-MD
 
 *WHATSAPP CHANNEL*
 > https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
 ⁠
-╭───────────────────❒
+╭══════════════════⊷❍
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV1* : *CASEYRHODES*
-│❒⁠⁠⁠⁠ *DEV2* : *CASEYRHODES*
-⁠⁠⁠⁠╰───────────────────❒
+│❒⁠⁠⁠⁠ *DEV1* : *𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂 𝙼𝙳*
+│❒⁠⁠⁠⁠ *DEV2* : *𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂 𝙺𝙸𝙽𝙶*
+╰══════════════════⊷❍
   `;
     
 let menuMsg = `
-     *CASEYRHODES TECH*
+     *𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂 𝚃𝙴𝙲𝙷*
 
-❒────────────────────❒`;
+❒════════════════❒`;
 
    var lien = mybotpic();
 
