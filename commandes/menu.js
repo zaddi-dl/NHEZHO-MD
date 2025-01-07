@@ -1,8 +1,8 @@
 const util = require('util');
 const fs = require('fs-extra');
 const axios = require('axios');
-const { adams } = require(__dirname + "/../Ibrahim/adams");
-const { format } = require(__dirname + "/../Ibrahim/mesfonctions");
+const { adams } = require(__dirname  + "/../framework/zokou");
+const { format } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../config");
@@ -40,7 +40,7 @@ const fetchGitHubStats = async () => {
 
 adams({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre, prefixe, nomAuteurMessage } = commandeOptions;
-    let { cm } = require(__dirname + "/../Ibrahim/adams");
+    let { cm } = require(__dirname  + "/../framework/zokou);
     var coms = {};
     var mode = s.MODE.toLowerCase() === "public" ? "public" : "private";
 
