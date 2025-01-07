@@ -6,7 +6,7 @@ function delay(_0x25f170) {
   return new Promise(_0x529a1f => setTimeout(_0x529a1f, _0x25f170));
 }
 zokou({
-  'nomCom': "ping2",
+  'nomCom': "ping",
   'desc': "To check bot response time",
   'Categorie': "General",
   'reaction': '🥂',
@@ -45,7 +45,7 @@ zokou({
   console.log("Ping results sent successfully with contact and context info!");
 });
 zokou({
-  'nomCom': "uptime2",
+  'nomCom': "uptime",
   'desc': "To check runtime",
   'Categorie': "General",
   'reaction': '😂˜',
