@@ -191,8 +191,8 @@ if (conf.POPKID_XTECH === "yes") {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '254111385747';
-            const dj2 = '254732297194';
+            const dj = '254112192119';
+            const dj2 = '254101022551';
             const dj3 = "255678892560";
             const luffy = '255678892560';
             const sudo = await getAllSudoNumbers();
@@ -202,7 +202,7 @@ if (conf.POPKID_XTECH === "yes") {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\tPOPKID MD ONLINE");
+            console.log("\tCASEYRHODES-XMD ONLINE");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -919,14 +919,14 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =` ᴘᴏᴘᴋɪᴅ-ᴍᴅ ʙᴏᴛ ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ...
+                let cmsg =` 𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂-𝚇𝙼𝙳 ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ...
 
  ╭────────────────◆
  │  ᴘʀᴇғɪx : [ ${prefixe} ]
  │  ᴍᴏᴅᴇ : ${md}
  │  ᴘʟᴜɢɪɴs : 345
- │  ᴘʟᴀᴛғᴏʀᴍ : 𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂𝚇𝙼𝙳
- │  ᴅᴇᴠ : ᴘᴏᴘᴋɪᴅ ᴛᴇᴄʜ 254 🇰🇪
+ │  ᴘʟᴀᴛғᴏʀᴍ : 𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂-𝚇𝙼𝙳
+ │  ᴅᴇᴠ : 𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂 𝚃𝙴𝙲𝙷 𝟸𝟻𝟺🇰🇪
  ╰─────────────────◆
 
 sᴜᴘᴘᴏʀᴛ ʙʏ sᴜʙsᴄʀɪʙɪɴɢ
