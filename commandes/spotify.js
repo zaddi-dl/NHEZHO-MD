@@ -16,7 +16,7 @@ zokou({
   const query = arg.join(' ').trim();
 
   try {
-    const response = await axios.get(`https://api.cafirexos.com/api/spotifyinfo?text=${encodeURI(query)}`);
+    const response = await axios.get(`https://api.davidcyriltech.my.id/spotifydl?text=${encodeURI(query)}`);
     const { data } = response;
 
     if (data.resultado.length === 0) return repondre('No music found');
@@ -37,7 +37,7 @@ zokou({
       zk.sendMessage(origineMessage, { text: '😎 *Dear, in what format would you like me to send you the song ?* :\n1️⃣ => 🎧 *Audio*\n2️⃣ => 📄 *Document*\n\n Reply to the message with the number of your choice' }, { quoted: reply });
 
       try {
-        const downloadResponse = await axios.get(`https://api.cafirexos.com/api/spotifydl?url=${result.url}`, { responseType: 'arraybuffer' });
+        const downloadResponse = await axios.get(`https://api.davidcyriltech.my.id/spotifydl?url=${result.url}`, { responseType: 'arraybuffer' });
         fs.writeFileSync('./spotifysearch.mp3', Buffer.from(downloadResponse.data));
         await zk.sendMessage(origineMessage, { audio: { url: './spotifysearch.mp3' }, mimetype: 'audio/mpeg' });
         fs.unlinkSync('./spotifysearch.mp3');
