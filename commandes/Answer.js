@@ -55,10 +55,10 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
   
       // Regrouper les arguments en une seule chaîne séparée par "-"
       const image = arg.join(' ');
-      const response = await axios.get(`http://api.maher-zubair.tech/ai/photoleap?q=${image}`);
+      const response = await axios.get(`https://api.davidcyriltech.my.id/ai/gpt4omini?text=${image}`);
       
       const data = response.data;
-      let caption = '*powered by popkid-MD*';
+      let caption = '*powered by CASEYRHODES-MD*';
       
       if (data.status == 200) {
         // Utiliser les données retournées par le service
@@ -73,7 +73,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
     }
   });
   
-  zokou({ nomCom: "ai", reaction: "📡", categorie: "IA" }, async (dest, zk, commandeOptions) => {
+  zokou({ nomCom: "ai2", reaction: "📡", categorie: "IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
@@ -83,7 +83,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
   
       // Regrouper les arguments en une seule chaîne séparée par "-"
       const question = arg.join(' ');
-      const response = await axios.get(`http://api.maher-zubair.tech/ai/chatgpt4?q=${question}`);
+      const response = await axios.get(`https://api.davidcyriltech.my.id/ai/gpt4omini?text=${question}`);
       
       const data = response.data;
       if (data) {
@@ -98,7 +98,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
   });
 
 
-zokou({ nomCom: "gpt", reaction: "🤔", categorie: "IA" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "gpt2", reaction: "🤔", categorie: "IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
@@ -108,7 +108,7 @@ zokou({ nomCom: "gpt", reaction: "🤔", categorie: "IA" }, async (dest, zk, com
   
       // Regrouper les arguments en une seule chaîne séparée par "-"
       const question = arg.join(' ');
-      const response = await axios.get(`https://gpt4.giftedtech.workers.dev/?prompt=${question}`);
+      const response = await axios.get(`https://api.davidcyriltech.my.id/ai/chatbot?query=${question}`);
       
       const data = response.data;
       if (data) {
