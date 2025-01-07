@@ -40,7 +40,7 @@ const fetchGitHubStats = async () => {
 
 adams({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre, prefixe, nomAuteurMessage } = commandeOptions;
-    let { cm } = require(__dirname  + "/../framework/zokou);
+    let { cm } = require(__dirname  + "/../framework/zokou");
     var coms = {};
     var mode = s.MODE.toLowerCase() === "public" ? "public" : "private";
 
