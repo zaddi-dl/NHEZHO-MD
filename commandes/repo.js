@@ -1,33 +1,54 @@
-'use strict';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const { zokou } = require("../framework/zokou");
 
-Object.defineProperty(exports, '__esModule', {
-  'value': true
-});
-const {
-  adams
-} = require("../framework/zokou");
-adams({
-  'nomCom': "repo",
-  'reaction': '📂',
-  'nomFichier': __filename
-}, async (_0x256950, _0x3cdb38, _0x2c604e) => {
-  const _0x2f4eff = await fetch('https://api.github.com/repos/caseyweb/ZHEZHO-MD');
-  const _0x36b130 = await _0x2f4eff.json();
-  if (_0x36b130) {
-    const _0x50985d = {
-      'stars': _0x36b130.stargazers_count,
-      'forks': _0x36b130.forks_count,
-      'lastUpdate': _0x36b130.updated_at,
-      'owner': _0x36b130.owner.login
-    };
-    const _0x20cf11 = "𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃 𝐆𝐈𝐓𝐇𝐔𝐁 𝐈𝐍𝐅𝐎𝐌𝐄𝐓𝐈𝐎𝐍.  \n𝐂𝐑𝐄𝐓𝐄𝐃 𝐁𝐘 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒.\n\n𝐒𝐓𝐀𝐑⭐ 𝐓𝐇𝐄 𝐑𝐄𝐏𝐎 𝐓𝐇𝐄𝐍 𝐅𝐎𝐑𝐊🍴\n\n📂 Repository Name: *BMW-MD*\n📝 Last Update: " + _0x50985d.lastUpdate + "\n👤 Owner: *Ibrahim Adams*\n⭐ Stars: " + _0x50985d.stars + "\n🍴 Forks: " + _0x50985d.forks + "\n🌐 Repo: " + _0x36b130.html_url + "\n⭕ For More Info : https://github.com/IBRAHIM-TECH-AI/IBRAHIM-ADAMS-INFO⁠\n";
-    await _0x3cdb38.sendMessage(_0x256950, {
-      'image': {
-        'url': "https://files.catbox.moe/yedfbr.jpg"
-      },
-      'caption': _0x20cf11
-    });
-  } else {
-    console.log("Could not fetch data");
+zokou({ nomCom: "repo", catégorie:"Général", reaction: "⚙️", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+  const githubRepo = 'https://api.github.com/repos/vaseyweb/ZHEZHO-MD';
+  const img = 'https://telegra.ph/file/37882de26f9ffc60043ef.jpg';
+
+  try {
+    const response = await fetch(githubRepo);
+    const data = await response.json();
+
+    if (data) {
+      const repoInfo = {
+        stars: data.stargazers_count,
+        forks: data.forks_count,
+        lastUpdate: data.updated_at,
+        owner: data.owner.login,
+      };
+
+      const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
+      const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
+
+      const gitdata = `*hellow whatsaap user
+this is* *CASEYRHODES-XMD.*\n support our channel *by*,  https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G
+
+╭─────────────────────➳
+│╭────────────────────➳
+││ 🗼 *REPOSITORY:* ${data.html_url}
+││ 🌟 *STARS:* ${repoInfo.stars}
+││ 🧧 *FORKS:* ${repoInfo.forks}
+││ 📅 *RELEASE DATE:* ${releaseDate}
+││🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
+││ 👨‍💻 *OWNER:* *CASEYRHODES-XMD*
+││ 💞 *THEME:* *CASEYRHODES*
+││ 🥰 *ENJOY TO USE CASEYRHODES-XMD*
+│╰────────────────────➳
+│╭──────────────────❍ 
+││  ╭───────────────➳
+││  │ _*𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂*_
+││  ╰───────────────➳
+│╰──────────────────❍ 
+..........new vision🖐️🤠
+╰─────────────────────➳ 
+ ❍━━━━━━━━━━━━━━━━━━❍`;
+
+      await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
+    } else {
+      console.log("Could not fetch data");
+    }
+  } catch (error) {
+    console.log("Error fetching data:", error);
   }
 });
