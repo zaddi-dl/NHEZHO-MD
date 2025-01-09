@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "⚙️", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-  const githubRepo = 'https://api.github.com/repos/vaseyweb/ZHEZHO-MD';
-  const img = 'https://telegra.ph/file/37882de26f9ffc60043ef.jpg';
+  const githubRepo = 'https://api.github.com/repos/caseyweb/ZHEZHO-MD';
+  const img = 'https://files.catbox.moe/yedfbr.jpg';
 
   try {
     const response = await fetch(githubRepo);
@@ -22,7 +22,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "⚙️", nomFichier: 
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `*hellow whatsaap user
-this is* *CASEYRHODES-XMD.*\n support our channel *by*,  https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G
+this is* *CASEYRHODES-XMD.*\n support our channel *by*,  https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
 
 ╭─────────────────────➳
 │╭────────────────────➳
