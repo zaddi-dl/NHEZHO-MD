@@ -1,3 +1,4 @@
+const util = require('util');
 const fs = require('fs-extra');
 const { zokou } = require(__dirname + "/../framework/zokou");
 const { format } = require(__dirname + "/../framework/mesfonctions");
@@ -7,7 +8,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
-zokou({ nomCom: "sc", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "sc", categorie: "My Contact" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -33,34 +34,48 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-   *𝗧𝗛𝗜𝗦 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 𝗜𝗦 𝗣𝗥𝗜𝗩𝗔𝗧𝗘* 
-╭════════════════⊷❍
-│❍╭─────────────
-│❍│▸ *𝙲𝙷𝙰𝙽𝙽𝙴𝙻* https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
-│❍│▸⁣⣿⣿⡿⠋⠄⡀⣿⣿⣿⣿⣿⣿⣿⠿⠛⠋⣉⣉⣉⡉⠙⠻
-│❍│▸╔╦╦╦══╦══╗
-║❍╔╣╠╝╔╬╝╔╣ 𝐆𝐞𝐭 𝐫𝐞𝐩𝐨 𝐢𝐧 𝐭𝐡𝐞 𝐜𝐡𝐚𝐧𝐧𝐞𝐥.
-╚❍╝╚╩══╩══╝
-│❍╰═════════════
-│❍│▸ *𝙲𝙷𝙰𝙽𝙽𝙴𝙻* : https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
-│❍│▸╔╦╦╦══╦══╗
-║❍╔╣╠╝╔╬╝╔╣
-╚❍╝╚╩══╩══╝
-│❍│▸ *𝚈𝙾𝚄𝚃𝚄𝙱𝙴 :https://youtube.com/@Caseyrhodes01
-│❍╰═════════════
-╰════════════════⊷❍\n─
+❂━━━════──⊷──════━━━❂
+   *INFORMATION ABOUT ME* 
+▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒
+❂━━━➳════⊷════➳━━━━❂
+
+*GITHUB LINK*
+> https://github.com/caseyweb
+
+*YouTube channel*
+>https://www.youtube.com/@caseyrhodes01
+
+*FOR DEVELOPER T.ME*
+> https://wa.me/254112192119
+
+*WHATSAPP GROUP*
+> https://chat.whatsapp.com/Lcw1jJCMa6a82RDEW5XM1j
+
+*FOR MORE INFO TAP ON THE LINK BELOW*
+> https://github.com/caseyweb/ZHEZHO-MD
+╭──━━━━═════════━━━━⦿
+┃ ❂━━━════➳════━━━━❂
+┃▓▒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃▓▒ *DEV* : *CASEYRHODES-XMDHGV 
+┃ ❂━━━════➳════━━━━❂
+⁠⁠⁠⁠╰──━━━━═════════━━━━⦿ 
   `;
     
 let menuMsg = `
-      𝚉𝙷𝙴𝚉𝙷𝙾_𝙼𝙳 𝙼𝙰𝙳𝙴 𝙱𝚈 𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂🌟
+     ╭──━━━━══⊷══━━━━⦿
+     ┃ ❂━━━━━━━━━━━━❂
+     ┃▓ CASEYRHODES-XMD😎
+     ┃ ❂━━━━━━━━━━━━❂
+     ╰──━━━━══⊷══━━━━⦿
+❂━━━━═════⊷═════━━━━❂
+▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒
+❂━━━════──➳──════━━━❂`;
 
-❍⊷════════════════⊷❍`;
-    
    var lien = mybotpic();
 
    if (lien.match(/\.(mp4|gif)$/i)) {
-    try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *andbad*, déveloper andbad" , gifPlayback : true }, { quoted: ms });
+    try {CC 5
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "I am *Lucky Md*, Developed By Fredie Sir" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -70,7 +85,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "I am *LUCKY MD V7*, Developed By Fredie Sir" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -83,4 +98,4 @@ else {
     
 }
 
-}); 
+});
