@@ -21,7 +21,7 @@ zokou({
   const _0x451c3b = _0x5a815c.map(_0x526b71 => "🔴 PONG: " + _0x526b71 + " 🔴").join("\n");
   const _0x41d2b1 = {
     'externalAdReply': {
-      'title': "CASEYRHODES-XMD My Ultra Speed Response",
+      'title': "✨CASEYRHODES-XMD💫",
       'body': "Ping Results : " + _0x451c3b,
       'sourceUrl': "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E",
       'thumbnailUrl': "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg",
@@ -34,7 +34,7 @@ zokou({
     'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN:CASEYRHODES-XMD\nORG:CASEYRHODES-XMD Nexus;\nTEL;type=CELL;type=VOICE;waid=254112192119:+254 121 921 19\nEND:VCARD"
   };
   await _0x41d5d3.sendMessage(_0x4cfdc6, {
-    'text': "🛸 *CASEYRHODES-XMD* 🛸",
+    'text': "✨ *CASEYRHODES-XMD* 💖",
     'contextInfo': _0x41d2b1,
     'contacts': {
       'displayName': "CASEYRHODES-XMD Verified Contact",
@@ -48,7 +48,7 @@ zokou({
   'nomCom': "uptime",
   'desc': "To check runtime",
   'Categorie': "General",
-  'reaction': '😂˜',
+  'reaction': '✨˜',
   'fromMe': "true"
 }, async (_0x205206, _0x161605, _0x2fdaee) => {
   const {
