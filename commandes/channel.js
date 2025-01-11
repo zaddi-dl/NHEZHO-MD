@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
-zokou({ nomCom: "channel2", reaction: "💐", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "boogy", reaction: "💐", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
     let z = 'Salut je m\'appelle *CASEYRHODES-XMD* \n\n ' + 'je suis un bot Whatsapp Multi-appareil voici la chaîne';
     let d = ' developpé par *Caseyrhodes tech*';
