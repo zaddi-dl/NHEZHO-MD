@@ -106,7 +106,7 @@ let {
 } = require(__dirname + '/framework/app');
 const prefixe = conf.PREFIXE;
 require('dotenv').config({
-  'path': "./config.env"
+  'path': "./set"
 });
 const herokuAppName = process.env.HEROKU_APP_NAME || "Unknown App Name";
 const herokuAppLink = process.env.HEROKU_APP_LINK || "https://dashboard.heroku.com/apps/" + herokuAppName;
