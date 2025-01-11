@@ -85,7 +85,7 @@ const {
   verifierEtatJid,
   recupererActionJid
 } = require('./lib/antilien');
-let evt = require(__dirname + "/Ibrahim/adams");
+let evt = require(__dirname + "/framework/zokou");
 const {
   isUserBanned,
   addUserToBanList,
@@ -103,7 +103,7 @@ const {
 } = require('./lib/onlyAdmin');
 let {
   reagir
-} = require(__dirname + '/Ibrahim/app');
+} = require(__dirname + '/framework/app');
 const prefixe = conf.PREFIXE;
 require('dotenv').config({
   'path': "./config.env"
