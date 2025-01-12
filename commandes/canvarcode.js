@@ -24,7 +24,7 @@ zokou({
       'title': "✨CASEYRHODES-XMD💫",
       'body': "Ping Results : " + _0x451c3b,
       'sourceUrl': "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E",
-      'thumbnailUrl': "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg",
+      'thumbnailUrl': "https://files.catbox.moe/yedfbr.jpg",
       'mediaType': 0x1,
       'showAdAttribution': true
     }
@@ -59,10 +59,10 @@ zokou({
   const _0x2f3abc = new Date(_0x766aaf * 1000).toISOString().substr(11, 8);
   const _0xae590 = {
     'externalAdReply': {
-      'title': "CASEYRHODES-XMD - System Uptime",
+      'title': "✨CASEYRHODES-XMD🦄",
       'body': "Bot has been running for: " + _0x2f3abc,
       'sourceUrl': "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E",
-      'thumbnailUrl': "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg",
+      'thumbnailUrl': "https://files.catbox.moe/yedfbr.jpg",
       'mediaType': 0x1,
       'showAdAttribution': true
     }
