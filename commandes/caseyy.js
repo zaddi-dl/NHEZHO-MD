@@ -73,7 +73,7 @@ zokou({ nomCom: "menu4", categorie: "General" }, async (dest, zk, commandeOption
                 externalAdReply: {
                     title: "CASEYRHODES-XMD MENU LIST",
                     body: "Dont worry bro I have more tap to follow",
-                    thumbnailUrl: "https://files.catbox.moe/idb19j.jpeg",
+                    thumbnailUrl: "https://files.catbox.moe/yedfbr.jpg",
                     sourceUrl: "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E",
                     mediaType: 1,
                     renderLargerThumbnail: true
