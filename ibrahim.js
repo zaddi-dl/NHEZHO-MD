@@ -114,7 +114,7 @@ setTimeout(() => {
         const zk = (0, baileys_1.default)(sockOptions);
         store.bind(zk.ev);
    // Auto-react to status updates, handling each status one-by-one without tracking
-if (conf.POPKID_XTECH === "yes") {
+if (conf.TECH === "yes") {
     zk.ev.on("messages.upsert", async (m) => {
         const { messages } = m;
         
@@ -300,7 +300,7 @@ const emojis = ['👣', '🏗️', '✈️', '🌽', '🏸', '🛖', '🍁', '�
 //plz man, don't give my code to anyone!!! I trust you!
 
 
-if (origineMessage === auteurMessage && conf.AUTOREAD_MESSAGES === "yes") {
+if (origineMessage === auteurMessage && conf.AUTOREAD_MESSAGE === "yes") {
 
 zk.readMessages([ms.key]);
   }
