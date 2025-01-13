@@ -1,102 +1,51 @@
-const axios = require("axios");
-const moment = require("moment-timezone");
+const util = require('util');
+const fs = require('fs-extra');
 const { zokou } = require(__dirname + "/../framework/zokou");
+const { format } = require(__dirname + "/../framework/mesfonctions");
+const moment = require("moment-timezone");
+const s = require(__dirname + "/../set");
 
-let dynamicForks = 5000;
+zokou({ nomCom: "repo", categorie: "General" }, async (dest, zk, commandeOptions) => {
+    let { ms, repondre, nomAuteurMessage } = commandeOptions;
 
-const fetchGitHubRepoDetails = async () => {
-  try {
-    const response = await axios.get("https://api.github.com/repos/caseyweb/ZHEZHO-MD");
-    const { 
-      name, 
-      stargazers_count, 
-      watchers_count, 
-      open_issues_count, 
-      forks_count, 
-      owner 
-    } = response.data;
-    
-    dynamicForks += forks_count;
-    
-    return {
-      'name': name,
-      'stars': stargazers_count,
-      'watchers': watchers_count,
-      'issues': open_issues_count,
-      'forks': dynamicForks,
-      'owner': owner.login,
-      'url': response.data.html_url
-    };
-  } catch (error) {
-    console.error("Error fetching GitHub repository details:", error);
-    return null;
-  }
-};
+    // Set timezone to GMT
+    moment.tz.setDefault('Etc/GMT');
+    const temps = moment().format('HH:mm:ss');
+    const date = moment().format('DD/MM/YYYY');
 
-const commands = ["git", "repo2", "script", 'hansc'];
-
-commands.forEach(command => {
-  zokou({
-    'nomCom': command,
-    'categorie': "GitHub"
-  }, async (destination, zk, commandOptions) => {
-    let { repondre } = commandOptions;
-    const repoDetails = await fetchGitHubRepoDetails();
-    
-    if (!repoDetails) {
-      repondre("❌ Failed to fetch GitHub repository information.");
-      return;
-    }
-
-    const { 
-      name, 
-      stars, 
-      watchers, 
-      issues, 
-      forks, 
-      owner, 
-      url 
-    } = repoDetails;
-
-    const currentDate = moment().tz("Africa/Tanzania").format("DD/MM/YYYY HH:mm:ss");
-    
-    const messageContent = `
-    ♦️ *${name} REPO INFO* ♦️
-
-    ⭐ *Name:* ${name}
-    🔻 *Stars:* ${stars.toLocaleString()}
-    🍴 *Forks:* ${forks.toLocaleString()}
-    👀 *Watchers:* ${watchers.toLocaleString()}
-    🚧 *Open Issues:* ${issues.toLocaleString()}
-    👤 *Owner:* ${owner}
-
-    🗓️ *Fetched on:* ${currentDate}
-
-    🔗 *Repo Link:* ${url}
-
-    🚀 Scripted by *Hans Tz*
-
-    Stay connected and follow my updates!
+    // Message content
+    let infoMsg = `
+*AVAILABLE REPO AND GROUPS* 
+╭─────────────────
+│❍╭─────────────
+│❍│▸ *CHANNEL* : https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
+│❍│▸ *GROUP* : https://chat.whatsapp.com/Lcw1jJCMa6a82RDEW5XM1j
+│❍│▸ *REPO* : https://github.com/caseyweb/CHARITY-MD-V2
+│❍│▸ *YTUBE* : https://www.youtube.com/@Caseyrhodes01
+╰──────────────────
     `;
 
+    let menuMsg = `
+     MADE EASY BY CASEYRHODES 🍀
+❍────────────────────❍`;
+
     try {
-      await zk.sendMessage(destination, {
-        'text': messageContent,
-        'contextInfo': {
-          'externalAdReply': {
-            'title': "😊 Stay Updated with HansTz",
-            'body': "Tap here for the latest updates!",
-            'thumbnailUrl': "https://files.catbox.moe/79jj3e.jpg",
-            'mediaType': 1,
-            'renderLargerThumbnail': true,
-            'mediaUrl': "https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31",
-            'sourceUrl': "https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31"
-          }
-        }
-      });
+        // Send message without using any bot image
+        await zk.sendMessage(dest, {
+            text: infoMsg + menuMsg,
+            contextInfo: {
+                mentionedJid: [nomAuteurMessage],
+                externalAdReply: {
+                    title: "𝐇𝐀𝐍𝐒 MD WHATSAPP BOT",
+                    body: "MADE BY 𝐇𝐀𝐍𝐒 TZ",
+                    thumbnailUrl: "https://files.catbox.moe/81hhl0.jpg", // Static bot image URL
+                    sourceUrl: "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E",
+                    mediaType: 1
+                }
+            }
+        }, { quoted: ms });
     } catch (error) {
-      console.error("❌ Error sending GitHub info:", error);
-      repondre("❌ Error sending GitHub info: " + error.message);
+        console.error("❌ Error sending GitHub info:", error);
+        repondre("❌ Error sending GitHub info: " + error.message);
     }
-  });
 });
