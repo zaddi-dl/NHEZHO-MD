@@ -16,6 +16,17 @@ zokou({ nomCom: "repo", categorie: "General" }, async (dest, zk, commandeOptions
     // Message content
     let infoMsg = `
 *AVAILABLE REPO AND GROUPS* 
+*hellow Friend👋👋*
+this is* *CASEYRHODES-XMD👊.*
+
+🗼 *REPOSITORY:* https://github.com/caseyweb/ZHEZHO-MD
+💫 *STARS:* 20
+🧧 *FORKS:* 63
+📅 *RELEASE DATE:* 08/01/2025
+🕐 *UPDATE ON:* 2025-01-13T21:36:23Z
+🙊 *OWNER:* *Mr Caseyrhodes*
+🍃 *THEME:* *CASEYRHODES-XMD*
+🍷 *Am Safe To Fight In My Life*
 ╭─────────────────
 │❍│▸ *REPO* : https://github.com/caseyweb/ZHEZHO-MD
 │❍│▸ *YTUBE* : https://www.youtube.com/@Caseyrhodes01
@@ -23,7 +34,7 @@ zokou({ nomCom: "repo", categorie: "General" }, async (dest, zk, commandeOptions
     `;
 
     let menuMsg = `
-     MADE EASY BY CASEYRHODES🔱
+  MADE EASY BY CASEYRHODES🔱
 ❍────────────────────❍`;
 
     try {
