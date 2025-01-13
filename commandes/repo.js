@@ -17,16 +17,13 @@ zokou({ nomCom: "repo", categorie: "General" }, async (dest, zk, commandeOptions
     let infoMsg = `
 *AVAILABLE REPO AND GROUPS* 
 ╭─────────────────
-│❍╭─────────────
-│❍│▸ *CHANNEL* : https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
-│❍│▸ *GROUP* : https://chat.whatsapp.com/Lcw1jJCMa6a82RDEW5XM1j
-│❍│▸ *REPO* : https://github.com/caseyweb/CHARITY-MD-V2
+│❍│▸ *REPO* : https://github.com/caseyweb/ZHEZHO-MD
 │❍│▸ *YTUBE* : https://www.youtube.com/@Caseyrhodes01
 ╰──────────────────
     `;
 
     let menuMsg = `
-     MADE EASY BY CASEYRHODES 🍀
+     MADE EASY BY CASEYRHODES🔱
 ❍────────────────────❍`;
 
     try {
@@ -36,8 +33,8 @@ zokou({ nomCom: "repo", categorie: "General" }, async (dest, zk, commandeOptions
             contextInfo: {
                 mentionedJid: [nomAuteurMessage],
                 externalAdReply: {
-                    title: "𝐇𝐀𝐍𝐒 MD WHATSAPP BOT",
-                    body: "MADE BY 𝐇𝐀𝐍𝐒 TZ",
+                    title: "𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃 WHATSAPP BOT",
+                    body: "MADE BY 𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦",
                     thumbnailUrl: "https://files.catbox.moe/81hhl0.jpg", // Static bot image URL
                     sourceUrl: "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E",
                     mediaType: 1
