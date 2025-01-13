@@ -4,7 +4,7 @@ const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/caseyweb/ZHEZHO-MD';
-  const img = 'https://files.catbox.moe/0cxusf.jpg';
+  const img = 'https://files.catbox.moe/yedfbr.jpg';
 
   try {
     const response = await fetch(githubRepo);
@@ -22,15 +22,15 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `*hellow Friend
-this is* *CASEYRHODES-XMD👊.*\n *Join Group Chat* https://chat.whatsapp.com/Izvx1Uxm03a5pqSBBXt4Nb
+this is* *CASEYRHODES-XMD👊.*\n *Join Group Chat* https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
 
 🗼 *REPOSITORY:* ${data.html_url}
 💫 *STARS:* ${repoInfo.stars}
 🧧 *FORKS:* ${repoInfo.forks}
 📅 *RELEASE DATE:* ${releaseDate}
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-🙊 *OWNER:* *Mr Dulla*
-🍃 *THEME:* *DULLAH MD*
+🙊 *OWNER:* *Mr CASEYRHODES*
+🍃 *THEME:* *CASEYRHODES-XMD*
 🍷 *Am Safe To Fight In My Life*
 __________________________________
             *POWERED BY CASEYRHODES*`;
