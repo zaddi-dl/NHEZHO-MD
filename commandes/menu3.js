@@ -18,8 +18,8 @@ zokou({ nomCom: "menu2", categorie: "Menu" }, async (dest, zk, commandeOptions) 
     cm.map(async (com, index) => { if (!coms[com.categorie])
         coms[com.categorie] = []; coms[com.categorie].push(com.nomCom); });
     const temps = moment(moment()).format("HH:MM:SS");
-    moment.tz.setDefault('Africa/Dar es salaam').locale("id");
-    const date = moment.tz("Africa/Dar es salaam").format("DD/MM/YYYY");
+    moment.tz.setDefault('Africa/Kenya').locale("id");
+    const date = moment.tz("Africa/Kenya").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
     let menuMsg = "  ═══ *CASEYRHODES✨MD* ═══\n\n";
@@ -67,7 +67,7 @@ zokou({ nomCom: "menu2", categorie: "Menu" }, async (dest, zk, commandeOptions) 
             menuMsg += "\t  ║ " + cmd + "" + " \n";
         }
     }
-    var link = "https://i.imgur.com/vXz75pe.jpeg";
+    var link = "https://files.catbox.moe/81hhl0.jpg";
     try {
         zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©YESSER MD" }, { quoted: ms });
     }
