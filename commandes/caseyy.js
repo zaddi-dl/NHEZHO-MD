@@ -8,7 +8,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206);
 const readmore = more.repeat(4001);
 
-zokou({ nomCom: "menu4", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "menu3", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre, prefixe, nomAuteurMessage, mybotpic } = commandeOptions;
     let { cm } = require(__dirname + "/../framework/zokou");
     let coms = {};
@@ -51,13 +51,13 @@ zokou({ nomCom: "menu4", categorie: "General" }, async (dest, zk, commandeOption
         menuMsg += `
 ❍⁠⁠⁠⁠━━〔 *${cat}* 〕━━❍⁠⁠⁠⁠
 ╭━━══••══━━••⊷
-║◆┊ `;
+║❍⁠⁠⁠⁠┊ `;
         for (const cmd of coms[cat]) {
             menuMsg += `          
-║◆┊ ${s.PREFIXE}  *${cmd}*`;    
+║❍⁠⁠⁠⁠┊ ${s.PREFIXE}  *${cmd}*`;    
         }
         menuMsg += `
-║◆┊
+║❍⁠⁠⁠⁠┊
 ╰─━━═••═━━••⊷`;
     }
     
@@ -73,7 +73,7 @@ zokou({ nomCom: "menu4", categorie: "General" }, async (dest, zk, commandeOption
                 externalAdReply: {
                     title: "CASEYRHODES-XMD MENU LIST",
                     body: "Dont worry bro I have more tap to follow",
-                    thumbnailUrl: "https://files.catbox.moe/yedfbr.jpg",
+                    thumbnailUrl:  "https://files.catbox.moe/81hhl0.jpg",
                     sourceUrl: "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E",
                     mediaType: 1,
                     renderLargerThumbnail: true
