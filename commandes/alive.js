@@ -10,7 +10,7 @@ zokou(
     // URLs and configurations
     const fullImageUrl = "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg"; // Full image URL
     const smallThumbnailUrl = "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg"; // Small thumbnail URL
-    const randomAudio = "https://files.catbox.moe/wdap4t.mp3"; // Voice note URL
+    const randomAudio = "https://files.catbox.moe/n48x8j.mp3"; // Voice note URL
     const sourceUrl = "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
@@ -57,7 +57,7 @@ zokou(
     // URLs and configurations
     const fullImageUrl = "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg"; // Full image URL
     const smallThumbnailUrl = "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg"; // Small thumbnail URL
-    const randomAudio = "https://files.catbox.moe/wdap4t.mp3"; // Voice note URL
+    const randomAudio = "https://files.catbox.moe/p6p605.mp3"; // Voice note URL
     const sourceUrl = "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
