@@ -7,7 +7,7 @@ const {
   zokou
 } = require("../framework/zokou");
 zokou({
-  'nomCom': "group",
+  'nomCom': "bot",
   'reaction': '🤨',
   'categorie': "Support-Owner",
   'nomFichier': __filename
@@ -59,7 +59,7 @@ zokou({
     'text': "Hello 👋\n\nClick on the button below to contact the OFFICIAL *CASEYRHODES-XMD* Owner",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https:// wa.me/254112192119',
+        'sourceUrl': 'https://wa.me/254112192119',
         'mediaType': 0x1,
         'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
         'title': "Join Our Developer Place",
@@ -143,7 +143,7 @@ zokou({
     'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *HACHERS HOOD* TikTok Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.tiktok.com/@cadeyrhodes',
+        'sourceUrl': 'https://www.tiktok.com/@caseyrhodes',
         'mediaType': 0x1,
         'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
         'title': "Follow TikTok Page 📄",
