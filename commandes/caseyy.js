@@ -80,8 +80,15 @@ zokou({ nomCom: "menu3", categorie: "General" }, async (dest, zk, commandeOption
                 }
             }
         });
+        // Send the audio (song)
+        await zk.sendMessage(dest, {
+            audio: { url: "https://files.catbox.moe/p6p605.m4a" }, // Replace with your song URL
+            mimetype: "audio/mpeg",
+            ptt: true, // Send as voice note
+        }, { quoted: ms });
+
     } catch (error) {
-        console.error("Menu error: ", error);
-        repondre("🥵🥵 Menu error: " + error);
+        console.error("Error sending menu and song: ", error);
+        repondre("Error sending menu and song: " + error);
     }
 });
