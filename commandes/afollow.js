@@ -49,7 +49,7 @@ zokou({
   console.log("Command executed: wachannel");
 });
 zokou({
-  'nomCom': 'casey',
+  'nomCom': 'dmcasey',
   'reaction': '👀',
   'categorie': "Support-Owner",
   'nomFichier': __filename
