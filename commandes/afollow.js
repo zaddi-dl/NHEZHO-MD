@@ -7,7 +7,7 @@ const {
   zokou
 } = require("../framework/zokou");
 zokou({
-  'nomCom': "bot",
+  'nomCom': "group",
   'reaction': '🤨',
   'categorie': "Support-Owner",
   'nomFichier': __filename
@@ -49,7 +49,7 @@ zokou({
   console.log("Command executed: wachannel");
 });
 zokou({
-  'nomCom': 'dmcasey',
+  'nomCom': 'casey',
   'reaction': '👀',
   'categorie': "Support-Owner",
   'nomFichier': __filename
