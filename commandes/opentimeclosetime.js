@@ -2,7 +2,7 @@ const { zokou } = require("../framework/zokou");
 // const { getGroupe } = require("../bdd/groupe"); 
 const conf = require("../set");
 
-keith({
+zokou({
     nomCom: "opentime",
     reaction: "🔖",
     categorie: "group"
