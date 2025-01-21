@@ -4,7 +4,7 @@ const ytSearch = require('yt-search');
 
 // Define the command with aliases
 zokou({
-  nomCom: "play3",
+  nomCom: "play1",
   aliases: ["song1", "ytmp3", "audio", "mp3"],
   categorie: "Search",
   reaction: "💿"
