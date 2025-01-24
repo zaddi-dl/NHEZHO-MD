@@ -1,29 +1,49 @@
-const {
-  zokou
-} = require("../framework/zokou");
+
+const { zokou } = require("../framework/zokou");
+const axios = require("axios");
+
+// Define the command with aliases
 zokou({
-  'nomCom': 'github',
-  'reaction': '📃',
-  'categorie': "Search"
-}, 
-  async (_0x52e003, _0x14d9f6, _0x5f1e4d) => {
-  const _0x3c7f3f = _0x4f7595.join(" ");
-  if (!_0x3c7f3f) {
-    return _0x3b1d82("Give me a valid github username like: " + _0x4fdb82 + "https://github.com/Kingdragony/Musicbot");
+  nomCom: "lyrics3",
+  aliases: ["mistari", "lyric"],
+  reaction: '⚔️',
+  categorie: "search"
+}, async (dest, zk, params) => {
+  const { repondre: sendResponse, arg: commandArgs, ms } = params;
+  const text = commandArgs.join(" ").trim();
+
+  if (!text) {
+    return sendResponse("Please provide a song name.");
   }
-  const _0x5d3fd3 = await fetch("https://api.github.com/users/" + _0x3c7f3f);
-  const _0x546dd2 = await _0x5d3fd3.json();
-  const _0x5892a1 = _0x546dd2.id;
-  const _0x9d02ae = _0x546dd2.name;
-  const _0x406595 = _0x546dd2.login;
-  const _0x3a4d0f = _0x546dd2.bio;
-  const _0x34623f = _0x546dd2.company;
-  const _0x5b8e0e = _0x546dd2.location;
-  const _0x24d738 = _0x546dd2.email;
-  const _0x3a22e7 = _0x546dd2.blog;
-  const _0x170599 = _0x546dd2.repos_url;
-  const _0x1ada1e = _0x546dd2.gists_url;
-  const _0x1f7a0c = _0x546dd2.followers;
-  const _0x86d2d1 = _0x546dd2.following;
-  await _0x3b1d82("\n         °GITHUB USER INFO°\n       \n🚩 Id : " + _0x5892a1 + "\n🔖 Name : " + _0x9d02ae + "\n🔖 Username : " + _0x406595 + "\n✨ Bio : " + _0x3a4d0f + "\n🏢 Company : " + _0x34623f + "\n📍 Location : " + _0x5b8e0e + "\n📧 Email : " + _0x24d738 + "\n📰 Blog : " + _0x3a22e7 + "\n🔓 Public Repo : " + _0x170599 + "\n🔐 Public Gists : " + _0x1ada1e + "\n👪 Followers : " + _0x1f7a0c + "\n🫶 Following : " + _0x86d2d1);
+
+  const apiUrl = `https://api.dreaded.site/api/lyrics?title=${encodeURIComponent(text)}`;
+
+  try {
+    const response = await axios.get(apiUrl);
+
+    if (!response.data || !response.data.success || !response.data.result || !response.data.result.lyrics) {
+      return sendResponse(`Sorry, I couldn't find any lyrics for "${text}".`);
+    }
+
+    const { title, artist, link, thumb, lyrics } = response.data.result;
+    const imageUrl = thumb || "https://i.imgur.com/Cgte666.jpeg";
+
+    const imageResponse = await axios.get(imageUrl, { responseType: 'arraybuffer' });
+    const imageBuffer = Buffer.from(imageResponse.data, 'binary');
+
+    const caption = `**Title**: ${title}\n**Artist**: ${artist}\n\n${lyrics}`;
+
+    await zk.sendMessage(
+      dest,
+      {
+        image: imageBuffer,
+        caption: caption
+      },
+      { quoted: ms }
+    );
+
+  } catch (error) {
+    console.error(error); // Log the error for debugging
+    sendResponse(`An error occurred while fetching the lyrics for "${text}".`);
+  }
 });
