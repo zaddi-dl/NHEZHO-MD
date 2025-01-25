@@ -7,7 +7,7 @@ const {
   zokou
 } = require("../framework/zokou");
 zokou({
-  'nomCom': "group",
+  'nomCom': "groups",
   'reaction': '🤨',
   'categorie': "Support-Owner",
   'nomFichier': __filename
