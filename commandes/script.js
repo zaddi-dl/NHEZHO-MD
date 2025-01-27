@@ -60,13 +60,13 @@ commands.forEach(_0x30efd7 => {
         'text': _0x1cd310,
         'contextInfo': {
           'externalAdReply': {
-            'title': "🤝 Stay Updated with Fredi Ezra",
+            'title': "🤝 Stay Updated with 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒🫅",
             'body': "Tap here for the latest updates!",
-            'thumbnailUrl': "https://files.catbox.moe/7irwqn.jpeg",
+            'thumbnailUrl': "https://files.catbox.moe/yedfbr.jpg",
             'mediaType': 0x1,
             'renderLargerThumbnail': true,
-            'mediaUrl': "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
-            'sourceUrl': "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f"
+            'mediaUrl': "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E",
+            'sourceUrl': "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E"
           }
         }
       });
