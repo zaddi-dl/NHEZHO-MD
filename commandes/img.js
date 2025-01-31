@@ -87,7 +87,7 @@ zokou({
   }
 });
 zokou({
-  nomCom: "waifu",
+  nomCom: "waifu2",
   categorie: "images",
   reaction: "🙄"
 }, async (origineMessage, zk, commandeOptions) => {
@@ -151,7 +151,7 @@ zokou({
   }
 });
 zokou({
-  nomCom: "hneko",
+  nomCom: "hneko2",
   categorie: "images",
   reaction: "🙄"
 }, async (origineMessage, zk, commandeOptions) => {
