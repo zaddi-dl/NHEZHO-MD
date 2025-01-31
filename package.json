@@ -33,6 +33,7 @@
     "cache-manager": "latest",
     "canvacord": "^5.4.8",
     "chal": "^0.0.1-security.0",
+    "child_process": "^1.0.2",
     "chalk": "^5.3.0",
     "songlyrics": "^2.4.8",
     "genius-lyrics": "^4.4.3",
