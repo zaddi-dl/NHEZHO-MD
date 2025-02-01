@@ -65,15 +65,15 @@ zokou({ nomCom: "logo", categorie: "Search", reaction: "✋" }, async (dest, zk,
 49⊷ Anonymous hacker (avatar cyan neon)
 50⊷ Birthday cake
 
-*Enjoy 😂*`;
+*Enjoy 🫅*`;
 
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
         title: "🌟 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃 ✨",
         body: "Regards, 𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦🫅",
-        thumbnailUrl: "https://i.imgur.com/v9gJCSD.jpeg",
-        sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+        thumbnailUrl: "https://files.catbox.moe/yedfbr.jpg",
+        sourceUrl: "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
