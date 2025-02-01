@@ -3,7 +3,7 @@ const lyricsFinder = require('lyrics-finder');
 const yts = require('yt-search');
 
 zokou({
-    nomCom: 'lyrics2',
+    nomCom: 'lyrics',
     aliases: ['lyric', 'mistari'],
     reaction: '📑',
 }, async (zk, dest, context) => {
