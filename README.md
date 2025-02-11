@@ -83,18 +83,16 @@
 <a href='https://mogenius.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=genius'/></a>
 
   **Do not forget to give a star⭐️ please**
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></
 
 
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-## CONTACT NJABULO JB 
+## CONTACT CASEYRHODES TECH
   
-<a href="https://wa.me/26777821911"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
+<a href="https://wa.me/254112192119"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
   <a href="https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
   <a href="https://www.facebook.com/profile.php?id=100094314013209"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Instagram2.png" width="14%"> </a>
-  <a href="https://www.facebook.com/profile.php?id=100094314013209"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="15%"> </a><a href="https://https://github.com/NjabuloJ/Njabulo-jb"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/devto.png" width="15%"> </a><a href="Njabulo "> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/twitter.png" width="13%"> </a>
+  <a href="https://www.facebook.com/profile.php?id=100094314013209"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="15%"> </a><a href="https://https://github.com/caseyweb/NHEZHO-MD"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/devto.png" width="15%"> </a><a href="CASEYRHODES "> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/twitter.png" width="13%"> </a>
 </p>
 
 
@@ -107,38 +105,20 @@
 
 
 <p align="center">
-    <a href="https://chat.whatsapp.com/GfmBCCZR34g5EqMHpFLzZN">
+    <a href="https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E">
         <img height="30" title="Support Group" src="https://img.shields.io/badge/Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
     </a>
 </p>
 
-## Njabulo support 
+## CASEYRHODES SUPPORT 
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=CASEYRHODES XMD +MAKE; STAR ⭐+AND+FORKS+BY+NJABULO" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=CASEYRHODES XMD +MAKE; STAR ⭐+AND+FORKS+BY+CASEYRHODES XMD" alt="Typing SVG" /></a>
 
 
-## CONTACT CASEYRHODES💫 HERE
-  DM FOR SERIOUS BUSINESS
-
-   <a href="https://github.com/caseyweb"><img title="CONTACT-CASEYRHODES" src="https://img.shields.io/badge/CONTACT-CASEYRHODES-h?color=black&style=for-the-badge&logo=jordan" width="240" height="45.45"/></a></p>
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ## 𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑩𝒀 𝑭𝑶𝑳𝑳𝑶𝑾𝑰𝑵𝑮 𝐎𝐔𝐑 𝑾𝑯𝑨𝑻𝑺𝑨𝑷𝑷 𝑪𝑯𝑨𝑵𝑵𝑬𝑳
 
 
  <a href="https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E"><img title="OUR-WHATSAPP CHANNEL" src="https://img.shields.io/badge/OUR-WHATSAPP CHANNEL-h?color=green&style=for-the-badge&logo=whatsapp" width="280" height="38.45"/></a></p>
  
-### A special thank to
-
-<details close>
-<summary>Read More</summary>
-
-<br>
-
-* [`GOD`](https://github.com/caseyweb)
-* ## Contact Dev of CASEYRHODES 🤪
-* [`CASEYRHODES`](https://wa.me/254112192119?text=Hi+Bro+CASEYRHODES💫+Big+Fan😍)
-* [`CASEYRHODES`](https://wa.me/254112192119?text=Hi+Bro+CASEYRHODES💫+Big+Fan😍)
- </details>
 
