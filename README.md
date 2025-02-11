@@ -28,8 +28,8 @@
 <a href="https://github.com/caseyweb/NHEZHO-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/caseyweb/NHEZHO-MD?color=white&style=flat-square"></a>
 <a href="https://github.com/caseyweb/NHEZHO-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/caseyweb/NHEZHO-MD?color=yellow&style=flat-square"></a>
 <a href="https://github.com/caseyweb/NHEZHO-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/caseyweb/NHEZHO-MD?label=Watchers&color=red&style=flat-square"></a>
-<a href="https://github.com/Janithsadanuwan/Queen-Nilu-Md/"><img title="Size" src="https://img.shields.io/github/repo-size/AlipBot/Api-Alpis?style=flat-square&color=darkred"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Janithsadanuwan/Queen-Nilu-Md/%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/caseyweb/NHEZHO-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/AlipBot/Api-Alpis?style=flat-square&color=darkred"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/caseyweb/NHEZHO-MDA/%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
         <a href = ""><img alt="CASEYRHODES Tools" src="https://img.shields.io/youtube/channel/subscribers/UCjDKRYcwd5ZIpGICcVVL96Q" target="_blank" /></a>
 
 ### 1. FORK THIS REPO
@@ -63,27 +63,6 @@
  
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=▭+▬+▭+▬+▭+▬+▭+▬+▭+▬+▭)](https://git.io/typing-svg) 
 
-
-#### DEPLOY ON RAILWAY
-
-1. If You don't have a account in Railway. Create a account.
-    <br>
-<a href='https://railway.app' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=railway'/>
-2. Now Deploy
-    <br>
-<a href='https://railway.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
-
-#### DEPLOY ON MOGENIUS
-
-1. If You don't have a account in Replit. Create a account.
-    <br>
-<a href='https://mogenius.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=genius'/></a>
-2. Now Deploy
-    <br>
-<a href='https://mogenius.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=genius'/></a>
-
-  **Do not forget to give a star⭐️ please**
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></
 
 
 
